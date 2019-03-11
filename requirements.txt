@@ -2,3 +2,4 @@ tensorflow
 scipy
 matplotlib
 pandas
+nltk
