@@ -48,10 +48,10 @@ def get_idx(w):
   return w_idx,c_idx
 
 #------------------parameters-----------------------------------#
-window_size = 5                              #context window size
+window_size = int(args[3])                              #context window size
 neg = int(args[2])                               #number of negative samples
 lr = 0.1                                           #learning rate
-d = 50                                            #dimensionality
+d = 50    int(args[4])                                        #dimensionality
 power = 0.75            #negative sampling distribution parameter
 batch_size = int(args[1])                                       #batch size
 
