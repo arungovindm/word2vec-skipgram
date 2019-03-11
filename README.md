@@ -6,7 +6,7 @@ assignment 1
 For training the word2vec skipgram model run w2v.py with the following command line inputs
 </br>
 ```bash
-python w2.py batch_size negative_sample_count
+python w2.py batch_size negative_sample_count window_size embedding_dimensions
 ```
 To evaluate the model on SimLex-999 word similarity task run the following</br>
 
